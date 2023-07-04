@@ -36,4 +36,13 @@
 .welcome, .image-container {
   flex: 1; /* This will divide the space equally between your text and image */
 }
+@media (max-width: 991px) {
+  .image-container img {
+    width: 300px;
 
+  }
+  .intro-container {
+    text-align: center;
+    margin-top: 21px;
+  }
+}
