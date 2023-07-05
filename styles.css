@@ -9,35 +9,43 @@
 .welcome {
   font-weight: 300;
   margin: 0;
-  align-items: center;
+  padding-left: 100px;
+  text-align: left;
 }
 .image-container{
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-left: 0;
   max-width: 100%;
   text-align: right;
-  padding-top: 180px;
+ 
  
 }
-.image-container img {
-  width: 500px;
+.image-container img{
+  width: 555px;
+
   
 }
+
 
 .intro-container {
   display: flex;
   align-items: center; /* This will vertically align the items in the center, remove it if not needed */
-  justify-content: space-between; /* This will put some space between your text and image, remove it if not needed */
   gap: 20px; /* This will put 20px of gap between your text and image */
   flex-direction: column;
-  padding-top: 300px;
+  justify-content: center;
+  
+  
 }
 
 
-.welcome, .image-container {
+ .image-container {
   flex: 1;
   text-align: center; /* This will divide the space equally between your text and image */
 }
+
+
 
 .landing {
   display: flex;
@@ -50,12 +58,15 @@
 }
 body {
   font-family: 'Akatab';
+  
 }
 
 h1 {
   font-family: 'Paytone One';
   color: #2a4ed8;
-  font-size: 80px;
+  font-size: 75px;
+  padding-left: 100px;
+  padding-top: 0px;
 }
 
 .navbar a {
@@ -76,6 +87,6 @@ h1 {
   }
   .intro-container {
     text-align: center;
-    margin-top: 21px;
+    
   }
 }
