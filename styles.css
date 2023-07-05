@@ -77,16 +77,49 @@ h1 {
   font-family: 'Akatab';
 }
 
-
-
-
-@media (max-width: 991px) {
-  .image-container img {
-    width: 300px;
-
-  }
-  .intro-container {
-    text-align: center;
-    
-  }
+.intro-container h1, .intro-container p {
+  margin: 0;
 }
+
+
+
+  @media (max-width: 991px) {
+    .landing {
+      flex-direction: column-reverse;
+    }
+    
+    .image-container img {
+      width: 300px;
+    }
+    .landing .intro-container {
+      text-align: left;
+      justify-content: start;
+      align-items: flex-start;
+      gap: 5px; 
+      padding-left: 0; 
+      flex-grow: 6;
+      flex-basis: 0;
+     
+    
+    }
+
+    .landing .image-container { 
+      flex-grow: 4;
+      flex-basis: 0;
+      
+      
+    }
+    h1 {
+      font-size: 25px;
+      padding-left: 25px; 
+      padding-right: 25px;
+    }
+    .welcome {
+      padding-left: 25px; 
+      font-size: 15px;
+      padding-right: 25px;
+    }
+
+
+  }
+  
