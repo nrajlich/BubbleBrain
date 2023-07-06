@@ -122,4 +122,55 @@ h1 {
 
 
   }
+  .button-container {
+   
+    justify-content: center;
+    gap: 20px; /* This will put 20px of gap between your buttons */
+
+  }
+  
+  .button1 {
+    background-color: #2a4ed8; 
+    color: white;
+    padding: 10px 20px; /* Adjust these values to change the button size */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Optional: give the buttons rounded corners */
+    cursor: pointer; /* Change the cursor when hovering over the buttons */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: transform 0.2s ease; /* Optional: add a transition effect when hovering over the buttons */
+  }
+  .button2 {
+    background-color: white; 
+    color: #2a4ed8;
+    padding: 10px 20px; /* Adjust these values to change the button size */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Optional: give the buttons rounded corners */
+    cursor: pointer; /* Change the cursor when hovering over the buttons */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: transform 0.2s ease; /* Optional: add a transition effect when hovering over the buttons */
+  }
+  
+  .button1:active {
+    transform: scale(0.96);
+  }
+  .button2:active {
+    transform: scale(0.96);
+  }
+  This will make your buttons smaller, center them below your welcome text, and give them some basic styling. You can adjust the padding values in the .button rule to change the size of the buttons (the first value is the vertical padding and the second value is the horizontal padding).
+  
+  This will also add a hover effect to your buttons, so that their colors invert when you hover over them. You can remove the .button:hover rule if you don't want this effect.
+  
+  
+  
+  
+  
+  
   
