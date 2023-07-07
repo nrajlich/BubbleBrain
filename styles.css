@@ -1,64 +1,71 @@
-
 .landing {
   background-color: #c4ddf9;
   width: 100%;
   display: flex;
   height: 92vh;
-  
+
 }
+
 .welcome {
   font-weight: 300;
   margin: 0;
   padding-left: 100px;
   text-align: left;
 }
-.image-container{
+
+.image-container {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 0;
   max-width: 100%;
   text-align: right;
- 
- 
+
+
 }
-.image-container img{
+
+.image-container img {
   width: 555px;
 
-  
+
 }
 
 
 .intro-container {
   display: flex;
-  align-items: center; /* This will vertically align the items in the center, remove it if not needed */
-  gap: 20px; /* This will put 20px of gap between your text and image */
+  align-items: center;
+  /* This will vertically align the items in the center, remove it if not needed */
+  gap: 20px;
+  /* This will put 20px of gap between your text and image */
   flex-direction: column;
   justify-content: center;
-  
-  
+
+
 }
 
 
- .image-container {
+.image-container {
   flex: 1;
-  text-align: center; /* This will divide the space equally between your text and image */
+  text-align: center;
+  /* This will divide the space equally between your text and image */
 }
 
 
 
 .landing {
   display: flex;
-  flex-wrap: wrap; /* Optional, it allows items to wrap onto multiple lines */
+  flex-wrap: wrap;
+  /* Optional, it allows items to wrap onto multiple lines */
 }
 
 .landing .intro-container,
 .landing .image-container {
   flex-basis: 50%;
 }
+
 body {
   font-family: 'Akatab';
-  
+
 }
 
 h1 {
@@ -73,104 +80,130 @@ h1 {
   font-family: 'Akatab';
   font-size: 16px;
 }
+
 .navbar-brand {
   font-family: 'Akatab';
 }
 
-.intro-container h1, .intro-container p {
+.intro-container h1,
+.intro-container p {
   margin: 0;
 }
 
 
 
-  @media (max-width: 991px) {
-    .landing {
-      flex-direction: column-reverse;
-    }
-    
-    .image-container img {
-      width: 300px;
-    }
-    .landing .intro-container {
-      text-align: left;
-      justify-content: start;
-      align-items: flex-start;
-      gap: 5px; 
-      padding-left: 0; 
-      flex-grow: 6;
-      flex-basis: 0;
-     
-    
-    }
-
-    .landing .image-container { 
-      flex-grow: 4;
-      flex-basis: 0;
-      
-      
-    }
-    h1 {
-      font-size: 25px;
-      padding-left: 25px; 
-      padding-right: 25px;
-    }
-    .welcome {
-      padding-left: 25px; 
-      font-size: 15px;
-      padding-right: 25px;
-    }
-
-
+@media (max-width: 991px) {
+  .landing {
+    flex-direction: column-reverse;
   }
-  .button-container {
-   
-    justify-content: center;
-    gap: 20px; /* This will put 20px of gap between your buttons */
 
+  .intro-container {
+    display: block;
   }
-  
-  .button1 {
-    background-color: #2a4ed8; 
-    color: white;
-    padding: 10px 20px; /* Adjust these values to change the button size */
-    border: none; /* Remove the default button border */
-    border-radius: 5px; /* Optional: give the buttons rounded corners */
-    cursor: pointer; /* Change the cursor when hovering over the buttons */
+
+  .image-container img {
+    width: 300px;
+  }
+
+  .landing .intro-container {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition: transform 0.2s ease; /* Optional: add a transition effect when hovering over the buttons */
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-left: 0;
+    flex-grow: 6;
+    flex-basis: 0;
+  }
+
+  .landing .image-container {
+    flex-grow: 4;
+    flex-basis: 0;
+  }
+
+  h1 {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+  }
+
+  .welcome {
+    padding-left: 25px;
+    font-size: 15px;
+    padding-right: 25px;
+  }
+
+  .intro-container .button-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px;
+  }
+
+  .intro-container .button-container .button1,
+  .intro-container .button-container .button2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .button1 {
+    margin-top: 18px !important; /* adjust this value as needed */
+    margin-bottom: 4px !important; /* adjust this value as needed */
   }
   .button2 {
-    background-color: white; 
-    color: #2a4ed8;
-    padding: 10px 20px; /* Adjust these values to change the button size */
-    border: none; /* Remove the default button border */
-    border-radius: 5px; /* Optional: give the buttons rounded corners */
-    cursor: pointer; /* Change the cursor when hovering over the buttons */
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition: transform 0.2s ease; /* Optional: add a transition effect when hovering over the buttons */
+    margin-top: 4px !important; /* adjust this value as needed */
+    margin-bottom: 0px !important; /* adjust this value as needed */
   }
-  
-  .button1:active {
-    transform: scale(0.96);
+}
+
+
+.button1 {
+  background-color: #2a4ed8;
+  color: white;
+  padding: 10px 20px;
+  /* Adjust these values to change the button size */
+  border: none;
+  /* Remove the default button border */
+  border-radius: 5px;
+  /* Optional: give the buttons rounded corners */
+  cursor: pointer;
+  /* Change the cursor when hovering over the buttons */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: transform 0.2s ease;
+  /* Optional: add a transition effect when hovering over the buttons */
+}
+
+.button2 {
+  background-color: white;
+  color: #2a4ed8;
+  padding: 10px 20px;
+  /* Adjust these values to change the button size */
+  border: none;
+  /* Remove the default button border */
+  border-radius: 5px;
+  /* Optional: give the buttons rounded corners */
+  cursor: pointer;
+  /* Change the cursor when hovering over the buttons */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: transform 0.2s ease;
+  /* Optional: add a transition effect when hovering over the buttons */
+}
+
+.button1:active {
+  transform: scale(0.96);
+}
+
+.button2:active {
+  transform: scale(0.96);
+}
+ .button1, .button2 {
+    margin-top: 10px; /* adjust this value as needed */
+    margin-bottom: 10px; /* adjust this value as needed */
   }
-  .button2:active {
-    transform: scale(0.96);
-  }
-  This will make your buttons smaller, center them below your welcome text, and give them some basic styling. You can adjust the padding values in the .button rule to change the size of the buttons (the first value is the vertical padding and the second value is the horizontal padding).
-  
-  This will also add a hover effect to your buttons, so that their colors invert when you hover over them. You can remove the .button:hover rule if you don't want this effect.
-  
-  
-  
-  
-  
-  
-  
