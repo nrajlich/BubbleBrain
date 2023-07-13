@@ -110,20 +110,9 @@
        
        
     </div>
-<script>
-window.onload = function() {
-  resize();
-  window.addEventListener('resize', resize);
-}
 
-function resize() {
-  if(window.innerWidth <= 991) {
-    document.querySelector('.welcome').textContent = 'Free access to knowledge and and skill-building resources in graphic design, visual aesthetics, and web design.';
-  } else {
-    document.querySelector('.welcome').textContent = 'A digital space that provides free access to knowledge and skill-building resources in graphic design, visual aesthetics, and web design.';
-  }
-}
-</script>
+
+
 </div>
 </div>
 <div class="landing2">
@@ -133,8 +122,9 @@ function resize() {
 <div class="graphic-container">
     <h2>Unleash Your Creativity</h2>
     <p class="graphic">
-        Whether you're a seasoned designer or just getting started, learn design 
-        elements from fun tutorials and brush up your skills. Let's transform ideas into compelling visuals together! 
+        <span class="non-mobile">Whether you're a seasoned designer or just getting started, learn design 
+        elements from fun tutorials and brush up your skills. Let's transform ideas into compelling visuals together!</span>
+        <span class="mobile">Whether you are a seasoned designer or just getting started, let's transform ideas into compelling visual together!</span>
     </p>
 </div>
 
@@ -151,9 +141,11 @@ function resize() {
 <div class="web-container">
     <h3>Design. Develop. Deliver.</h3>
     <p class="web">
-        Web design is more than building websites—it's crafting experiences. 
+        <span class="non-mobile"> Web design is more than building websites—it's crafting experiences. 
         Discover insightful resources on UX/UI design and coding tutorials. 
-        Together we will create functional, aesthetic, and user-friendly websites.
+        Together we will create functional, aesthetic, and user-friendly websites.</span>
+        <span class="mobile"> Web design is more than building websites, it's crafting experiences.
+            Together we will create functional, aesthetic, and user-friendly websites.</span>
     </p>
     
 </div>

@@ -1,3 +1,7 @@
+.mobile {
+  display: none;
+}
+
 .landing {
   background-color: #c4ddf9;
   width: 100%;
@@ -92,76 +96,6 @@ h1 {
 
 
 
-@media (max-width: 991px) {
-  .landing {
-    flex-direction: column-reverse;
-  }
-
-  .intro-container {
-    display: block;
-  }
-
-  .image-container img {
-    width: 300px;
-    margin-top: 75px;
-  }
-
-  .landing .intro-container {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    padding-left: 0;
-    flex-grow: 6;
-    flex-basis: 0;
-    margin-top: 40px;
-  }
-
-  .landing .image-container {
-    flex-grow: 4;
-    flex-basis: 0;
-  }
-
-  h1 {
-    font-size: 25px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 10px;
-  }
-
-  .welcome {
-    padding-left: 25px;
-    font-size: 15px;
-    padding-right: 25px;
-  }
-
-  .intro-container .button-container {
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    gap: 10px;
-  
-  }
-
-  .landing2 {
-    flex-direction: column;
-  }
-  .intro-container .button-container .button1,
-  .intro-container .button-container .button2 {
-    width: 80%;
-    margin: 0 auto;
-  }
-  .button1 {
-    margin-top: 18px !important; /* adjust this value as needed */
-    margin-bottom: 4px !important; /* adjust this value as needed */
-  }
-  .button2 {
-    margin-top: 4px !important; /* adjust this value as needed */
-    margin-bottom: 0px !important; /* adjust this value as needed */
-  }
-}
-
-
 .button1 {
   background-color: #2a4ed8;
   color: white;
@@ -186,9 +120,7 @@ h1 {
   background-color: white;
   color: #2a4ed8;
   padding: 10px 20px;
-  /* Adjust these values to change the button size */
   border: none;
-  /* Remove the default button border */
   border-radius: 5px;
   /* Optional: give the buttons rounded corners */
   cursor: pointer;
@@ -210,14 +142,13 @@ h1 {
   transform: scale(0.96);
 }
  .button1, .button2 {
-    margin-top: 10px; /* adjust this value as needed */
-    margin-bottom: 10px; /* adjust this value as needed */
-  }
-
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+ }
   .image-container2 {
-    width: 30%;  /* Adjust width according to your needs */
-    height: auto; /* Maintains aspect ratio */
-    float: left;  /* Aligns the image container to the left */
+    width: 30%;  
+    height: auto; 
+    float: left;  
     padding-left: 100px;
     padding-top: 100px;
 }
@@ -258,6 +189,13 @@ h2 {
   padding-bottom: 20px;
   text-align: left;
 }
+
+
+
+
+
+
+
 
 /* Landing 3 */
 
@@ -307,4 +245,194 @@ h3 {
   padding-bottom: 20px;
   text-align: left;
 }
+
+
+
+@media (max-width: 991px) {
+
+  .mobile {
+    display: initial;
+  }
+
+  .non-mobile {
+    display: none;
+  }
+
+  .landing {
+    flex-direction: column-reverse;
+  }
+
+  .intro-container {
+    display: block;
+  }
+
+  .image-container img {
+    width: 300px;
+    margin-top: 75px;
+  }
+
+  .landing .intro-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-left: 0;
+    flex-grow: 6;
+    flex-basis: 0;
+    margin-top: 40px;
+  }
+
+  .landing .image-container {
+    flex-grow: 4;
+    flex-basis: 0;
+  }
+
+  h1 {
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+  }
+
+  .welcome {
+    padding-left: 28px;
+    font-size: 15px;
+    padding-right: 30px;
+    text-align: center;
+  }
+
+  .intro-container .button-container {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px;
+  
+  }
+
+  
+  .intro-container .button-container .button1,
+  .intro-container .button-container .button2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .button1 {
+    margin-top: 18px !important; 
+    margin-bottom: 4px !important; }
+
+  .button2 {
+    margin-top: 4px !important; 
+    margin-bottom: 0px !important; 
+  }
+
+  .landing2 {
+    flex-direction: column-reverse;
+    flex-basis: 0% !important;
+    height: auto;
+  }
+
+  h2 {
+    font-size: 25px !important;
+    padding-left: 40px !important;
+    padding-right: 0px !important;
+    padding-bottom: 10px !important;
+    white-space: nowrap;
+   
+  }
+
+  .graphic {
+    padding-left: 40px;
+    font-size: 15px;
+    padding-left: 40px;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 40px;
+  }
+
+  .graphic-container {
+    display: block;
+    padding-top: 25px !important;
+    padding-right: 0px;
+   
+    
+
+  }
+
+  .image-container2 {
+    display: block;
+    flex-grow: 4;
+    flex-basis: 0;
+    padding-left: 100px;
+    padding-top: 0px;
+  }
+
+  .image-container2 img {
+    width: 180px !important; /* add important to override other styles if any */
+    margin-top: 0;
+    padding-top: 25px;
+  }
+
+.landing2 .graphic-container,
+.landing2 .image-container2 {
+  flex-basis:0%;
+}
+
+.landing3 {
+
+  flex-direction: column;
+  flex-basis: 0% !important;
+  height: auto;
+  
+
+}
+
+h3 {
+  font-size: 25px !important;
+  padding-left: 0px !important;
+  padding-right: 40px !important;
+  padding-bottom: 10px !important;
+  white-space: nowrap;
+ 
+}
+
+.web {
+  padding-left: 40px;
+  font-size: 15px;
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: center;
+  padding-right: 60px;
+}
+
+
+.web-container {
+  display: block;
+  padding-top: 35px !important;
+  padding-right: 0px;
+  padding-left: 35px;
+ 
+}
+
+.image-container3 {
+  display: block;
+  flex-grow: 4;
+  flex-basis: 0;
+  padding-left: 100px;
+  padding-top: 0px;
+}
+
+.image-container3 img {
+  width: 180px !important; /* add important to override other styles if any */
+  margin-top: 0;
+  padding-top: 25px;
+
+}
+
+.landing3 .web-container,
+.landing .image-container2 {
+  flex-basis:0%;
+}
+
+}
+
+
 
