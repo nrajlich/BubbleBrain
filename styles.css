@@ -488,23 +488,24 @@ h4 {
 .landing4 {
   flex-direction: column-reverse;
   flex-basis: 0% !important;
-  height: auto;
+  height: 60vh !important;
 }
 
 h4 {
   font-size: 25px !important;
-  padding-left: 0px !important;
+  padding-left: 26px !important;
   padding-right: 40px !important;
   padding-bottom: 10px !important;
   white-space: nowrap;
-  text-align: center !important;
+  
 }
 
 .visual {
   padding-left: 40px;
   font-size: 15px;
   text-align: center;
-  padding-right: 60px !important;
+  padding-left: 26px;
+  padding-right: 75px !important;
 }
 
 .visual-container {
