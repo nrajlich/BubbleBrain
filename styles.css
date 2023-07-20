@@ -381,6 +381,7 @@ h3 {
   flex-direction: column;
   flex-basis: 0% !important;
   height: auto;
+  padding-bottom: 30px;
   
 
 }
