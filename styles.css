@@ -601,15 +601,15 @@ h4 {
   justify-content: space-between;
   background-color: #c4ddf9;
   color: rgb(44, 44, 44);
-  height: 300px;
+  min-height: 300px; /* Changed this from 'height' to 'min-height' */
   padding: 20px;
- align-items: center;
+  align-items: center;
 }
-
 
 .footerimg {
   padding-top: 30px;
 }
+
 .footer .footer-content {
   display: flex;
   flex-direction: column;
@@ -620,6 +620,7 @@ h4 {
 .footer ul {
   list-style-type: none;
   padding: 0;
+  text-align: center; /* Added this to center align in mobile view */
 }
 
 .footer ul li {
@@ -632,6 +633,10 @@ h4 {
   text-decoration: none;
 }
 
+.footer a:hover {
+  color: rgb(109, 108, 108);
+}
+
 .rights {
   text-align: center;
   font-size: 13px;
@@ -642,5 +647,5 @@ h4 {
     display: block;
     margin: 10px 0;
   }
-}
 
+}
