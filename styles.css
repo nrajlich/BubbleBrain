@@ -496,9 +496,9 @@ h3 {
   }
 
   .image-container4 img {
-    width: 180px !important;
-    margin-top: 0;
-    padding-top: 25px;
+    width: 150px !important;
+    margin-left: 23px;
+   
   }
 
   .landing4 .visual-container,
@@ -548,8 +548,7 @@ h3 {
   }
 
   .image-container4 img {
-    width: 180px !important;
-    /* add important to override other styles if any */
+    width: 150px !important;
     margin-top: 0;
     padding-top: 25px;
 
