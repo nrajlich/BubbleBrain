@@ -199,12 +199,6 @@ h2 {
 }
 
 
-
-
-
-
-
-
 /* Landing 3 */
 
 
@@ -681,10 +675,11 @@ h4 {
 
   }
 
+  .footerimg {
+    display: none;
+  }
+  
 }
 
-.footerimg {
-  display: none;
-}
 
 
