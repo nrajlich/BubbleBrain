@@ -141,26 +141,33 @@ h1 {
 .button2:active {
   transform: scale(0.96);
 }
- .button1, .button2 {
-    margin-top: 10px; 
-    margin-bottom: 10px; 
- }
-  .image-container2 {
-    width: 30%;  
-    height: auto; 
-    float: left;  
-    padding-left: 100px;
-    padding-top: 100px;
+
+.button1,
+.button2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
+.image-container2 {
+  width: 30%;
+  height: auto;
+  float: left;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
 .landing2 {
   display: flex;
   width: 100%;
   height: 80vh;
 }
+
 .image-container2 img {
-    width: 60%;  /* Makes the image fill the container */
-    height: auto; /* Maintains aspect ratio */
-    
+  width: 60%;
+  /* Makes the image fill the container */
+  height: auto;
+  /* Maintains aspect ratio */
+
 }
 
 .landing2 .graphic-container,
@@ -174,6 +181,7 @@ h1 {
   padding-top: 250px;
   text-align: right;
 }
+
 .graphic {
   font-weight: 300;
   margin: 0;
@@ -200,23 +208,30 @@ h2 {
 /* Landing 3 */
 
 
-  .image-container3 {
-    width: 60%;  /* Adjust width according to your needs */
-    height: auto; /* Maintains aspect ratio */
-    float: right;  /* Aligns the image container to the left */
-    padding-left: 100px;
-    padding-top: 90px;
+.image-container3 {
+  width: 60%;
+  /* Adjust width according to your needs */
+  height: auto;
+  /* Maintains aspect ratio */
+  float: right;
+  /* Aligns the image container to the left */
+  padding-left: 100px;
+  padding-top: 90px;
 }
+
 .landing3 {
   display: flex;
   width: 100%;
   height: 64vh;
 }
+
 .image-container3 img {
-    width: 70%;  /* Makes the image fill the container */
-    height: auto; /* Maintains aspect ratio */
-  
-    
+  width: 70%;
+  /* Makes the image fill the container */
+  height: auto;
+  /* Maintains aspect ratio */
+
+
 }
 
 .landing3 .web-container,
@@ -230,6 +245,7 @@ h2 {
   padding-top: 180px;
   text-align: left;
 }
+
 .web {
   font-weight: 300;
   margin: 0;
@@ -306,22 +322,24 @@ h3 {
     align-items: center !important;
     justify-content: center !important;
     gap: 10px;
-  
+
   }
 
-  
+
   .intro-container .button-container .button1,
   .intro-container .button-container .button2 {
     width: 80%;
     margin: 0 auto;
   }
+
   .button1 {
-    margin-top: 18px !important; 
-    margin-bottom: 4px !important; }
+    margin-top: 18px !important;
+    margin-bottom: 4px !important;
+  }
 
   .button2 {
-    margin-top: 4px !important; 
-    margin-bottom: 0px !important; 
+    margin-top: 4px !important;
+    margin-bottom: 0px !important;
   }
 
   .landing2 {
@@ -336,7 +354,7 @@ h3 {
     padding-right: 0px !important;
     padding-bottom: 10px !important;
     white-space: nowrap;
-   
+
   }
 
   .graphic {
@@ -352,8 +370,8 @@ h3 {
     display: block;
     padding-top: 25px !important;
     padding-right: 0px;
-   
-    
+
+
 
   }
 
@@ -366,178 +384,181 @@ h3 {
   }
 
   .image-container2 img {
-    width: 180px !important; /* add important to override other styles if any */
+    width: 180px !important;
+    /* add important to override other styles if any */
     margin-top: 0;
     padding-top: 25px;
   }
 
-.landing2 .graphic-container,
-.landing2 .image-container2 {
-  flex-basis:0%;
-}
+  .landing2 .graphic-container,
+  .landing2 .image-container2 {
+    flex-basis: 0%;
+  }
 
-.landing3 {
+  .landing3 {
 
-  flex-direction: column;
-  flex-basis: 0% !important;
-  height: auto;
-  padding-bottom: 30px;
-  
-
-}
-
-h3 {
-  font-size: 25px !important;
-  padding-left: 0px !important;
-  padding-right: 40px !important;
-  padding-bottom: 10px !important;
-  white-space: nowrap;
- 
-}
-
-.web {
-  padding-left: 40px;
-  font-size: 15px;
-  padding-left: 10px;
-  font-size: 15px;
-  text-align: center;
-  padding-right: 60px;
-}
+    flex-direction: column;
+    flex-basis: 0% !important;
+    height: auto;
+    padding-bottom: 30px;
 
 
-.web-container {
-  display: block;
-  padding-top: 35px !important;
-  padding-right: 0px;
-  padding-left: 35px;
-  padding-bottom: -50px;
- 
- 
-}
+  }
 
-.image-container3 {
-  display: block;
-  flex-grow: 4;
-  flex-basis: 0;
-  padding-left: 100px;
-  padding-top: 0px;
-  padding-bottom: 30px;
-}
+  h3 {
+    font-size: 25px !important;
+    padding-left: 0px !important;
+    padding-right: 40px !important;
+    padding-bottom: 10px !important;
+    white-space: nowrap;
 
-.image-container3 img {
-  width: 180px !important; /* add important to override other styles if any */
-  margin-top: 0;
-  padding-top: 25px;
-  
+  }
 
-}
+  .web {
+    padding-left: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 60px;
+  }
 
-.landing3 .web-container,
-.landing .image-container2 {
-  flex-basis: 0%;
-}
 
-.landing4 {
-  flex-direction: column-reverse;
-  flex-basis: 0% !important;
-  height: auto;
-}
+  .web-container {
+    display: block;
+    padding-top: 35px !important;
+    padding-right: 0px;
+    padding-left: 35px;
+    padding-bottom: -50px;
 
-h4 {
-  font-size: 25px !important;
-  padding-left: 0px !important;
-  padding-right: 40px !important;
-  padding-bottom: 10px !important;
-  white-space: nowrap;
-}
 
-.visual {
-  padding-left: 40px;
-  font-size: 15px;
-  text-align: center;
-  padding-right: 60px;
-}
+  }
 
-.visual-container {
-  display: block;
-  padding-top: 35px !important;
-  padding-right: 0px;
-  padding-left: 35px;
-  padding-bottom: -50px;
-}
+  .image-container3 {
+    display: block;
+    flex-grow: 4;
+    flex-basis: 0;
+    padding-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
 
-.image-container4 {
-  display: block;
-  flex-grow: 4;
-  flex-basis: 0;
-  padding-left: 100px;
-  padding-top: 0px;
-  padding-bottom: 30px;
-}
+  .image-container3 img {
+    width: 180px !important;
+    /* add important to override other styles if any */
+    margin-top: 0;
+    padding-top: 25px;
 
-.image-container4 img {
-  width: 180px !important;
-  margin-top: 0;
-  padding-top: 25px;
-}
 
-.landing4 .visual-container,
-.landing4 .image-container4 {
-  flex-basis: 0%;
-}
+  }
 
-.landing4 {
-  flex-direction: column-reverse;
-  flex-basis: 0% !important;
-  height: 60vh !important;
-}
+  .landing3 .web-container,
+  .landing .image-container2 {
+    flex-basis: 0%;
+  }
 
-h4 {
-  font-size: 25px !important;
-  padding-left: 26px !important;
-  padding-right: 40px !important;
-  padding-bottom: 10px !important;
-  white-space: nowrap;
-  
-}
+  .landing4 {
+    flex-direction: column-reverse;
+    flex-basis: 0% !important;
+    height: auto;
+  }
 
-.visual {
-  padding-left: 40px;
-  font-size: 15px;
-  text-align: center;
-  padding-left: 25px;
-  padding-right: 75px !important;
-}
+  h4 {
+    font-size: 25px !important;
+    padding-left: 0px !important;
+    padding-right: 40px !important;
+    padding-bottom: 10px !important;
+    white-space: nowrap;
+  }
 
-.visual-container {
-  display: block;
-  padding-top: 44px !important;
-  padding-right: 0px !important;
-  padding-left: 35px;
-  flex-basis: 0% !important;
-}
+  .visual {
+    padding-left: 40px;
+    font-size: 15px;
+    text-align: center;
+    padding-right: 60px;
+  }
 
-.image-container4 {
-  display: block;
-  flex-grow: 4;
-  flex-basis: 0;
-  padding-left: 100px;
-  padding-top: 0px;
-  padding-bottom: 30px;
-  padding-left: 100px !important;
-}
+  .visual-container {
+    display: block;
+    padding-top: 35px !important;
+    padding-right: 0px;
+    padding-left: 35px;
+    padding-bottom: -50px;
+  }
 
-.image-container4 img {
-  width: 180px !important; /* add important to override other styles if any */
-  margin-top: 0;
-  padding-top: 25px;
+  .image-container4 {
+    display: block;
+    flex-grow: 4;
+    flex-basis: 0;
+    padding-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+  }
 
-}
+  .image-container4 img {
+    width: 180px !important;
+    margin-top: 0;
+    padding-top: 25px;
+  }
 
-.landing4 .visual-container,
-.landing4 .image-container4 {
-  flex-basis: 0%;
-}
+  .landing4 .visual-container,
+  .landing4 .image-container4 {
+    flex-basis: 0%;
+  }
+
+  .landing4 {
+    flex-direction: column-reverse;
+    flex-basis: 0% !important;
+    height: 60vh !important;
+  }
+
+  h4 {
+    font-size: 25px !important;
+    padding-left: 26px !important;
+    padding-right: 40px !important;
+    padding-bottom: 10px !important;
+    white-space: nowrap;
+
+  }
+
+  .visual {
+    padding-left: 40px;
+    font-size: 15px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 75px !important;
+  }
+
+  .visual-container {
+    display: block;
+    padding-top: 44px !important;
+    padding-right: 0px !important;
+    padding-left: 35px;
+    flex-basis: 0% !important;
+  }
+
+  .image-container4 {
+    display: block;
+    flex-grow: 4;
+    flex-basis: 0;
+    padding-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 100px !important;
+  }
+
+  .image-container4 img {
+    width: 180px !important;
+    /* add important to override other styles if any */
+    margin-top: 0;
+    padding-top: 25px;
+
+  }
+
+  .landing4 .visual-container,
+  .landing4 .image-container4 {
+    flex-basis: 0%;
+  }
 
 }
 
@@ -550,16 +571,19 @@ h4 {
   height: 80vh;
 
 }
+
 .image-container4 img {
-    width: 60%;  /* Makes the image fill the container */
-    height: auto; /* Maintains aspect ratio */
-    vertical-align: middle;
+  width: 60%;
+  /* Makes the image fill the container */
+  height: auto;
+  /* Maintains aspect ratio */
+  vertical-align: middle;
 }
 
 .image-container4 {
-  width: 30%;  
-  height: auto; 
-  float: left;  
+  width: 30%;
+  height: auto;
+  float: left;
   padding-top: 0px;
   margin-right: 50px;
   padding-left: 160px;
@@ -576,6 +600,7 @@ h4 {
   padding-top: 300px;
   text-align: right;
 }
+
 .visual {
   font-weight: 300;
   margin: 0;
@@ -601,7 +626,8 @@ h4 {
   justify-content: space-between;
   background-color: #c4ddf9;
   color: rgb(44, 44, 44);
-  min-height: 300px; /* Changed this from 'height' to 'min-height' */
+  min-height: 300px;
+  /* Changed this from 'height' to 'min-height' */
   padding: 20px;
   align-items: center;
 }
@@ -620,7 +646,8 @@ h4 {
 .footer ul {
   list-style-type: none;
   padding: 0;
-  text-align: center; /* Added this to center align in mobile view */
+  text-align: center;
+  /* Added this to center align in mobile view */
 }
 
 .footer ul li {
@@ -646,6 +673,19 @@ h4 {
   .footer ul li {
     display: block;
     margin: 10px 0;
+
+
+  }
+
+  .footer ul {
+    padding-top: 20px;
+
   }
 
 }
+
+.footerimg {
+  display: none;
+}
+
+
