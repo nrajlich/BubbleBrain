@@ -676,5 +676,101 @@ h4 {
   
 }
 
+@media (min-width: 2560px) {
+
+  /* landing 1 */
+
+.image-container img {
+    width: auto;
+  }
+h1 {
+  font-size: 130px;
+  padding-left: 115px;
+}
+.welcome {
+ font-size: 20px;
+ padding-left: 0;
+}
+
+.welcome-text {
+width: 1010px;
+}
+
+/*Landing 2 */
+
+.landing2 {
+  height: 50vh;
+}
+
+.image-container2 .image-container3 {
+  box-sizing: border-box;  /* Consider padding and border in the width */
+}
+
+.image-container4 {
+  box-sizing: border-box;
+}
+
+.image-container4 img {
+  width: 33%;
+  margin-left: 450px;
+}
+.image-container2 img {
+  width: 35%;
+  margin-left: 370px;
+ 
+}
+h2 { 
+  font-size: 70px;
+}
+.graphic-text {
+  font-size: 20px;
+  width: 1010px;
+}
+ .graphic-container {
+  padding-left: 200px;
+  padding-top: 270px;
+ }.landing3 {
+  height: 45vh;
+ }
+
+h3 {
+  font-size: 70px;
+}
+.web-text {
+  width: 1010px;
+  font-size: 20px;
+}
+
+.image-container3 img {
+  width: 40%;
+  margin-left: 270px;
+
+}
+.web-container {
+  padding-left: 350px;
+}
+
+.landing4 {
+  height: 50vh;
+}
+
+h4 {
+  font-size: 70px;
+}
+
+.visual-text {
+  width: 1010px;
+  font-size: 20px;
+}
+
+.visual-container {
+  padding-left: 200px;
+}
+}
+
+
+
+
+
 
 
