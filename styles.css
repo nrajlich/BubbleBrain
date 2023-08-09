@@ -38,9 +38,9 @@
 .intro-container {
   display: flex;
   align-items: center;
-  /* This will vertically align the items in the center, remove it if not needed */
+ 
   gap: 20px;
-  /* This will put 20px of gap between your text and image */
+ 
   flex-direction: column;
   justify-content: center;
 
@@ -51,7 +51,7 @@
 .image-container {
   flex: 1;
   text-align: center;
-  /* This will divide the space equally between your text and image */
+
 }
 
 
@@ -59,7 +59,7 @@
 .landing {
   display: flex;
   flex-wrap: wrap;
-  /* Optional, it allows items to wrap onto multiple lines */
+ 
 }
 
 .landing .intro-container,
@@ -100,20 +100,20 @@ h1 {
   background-color: #2a4ed8;
   color: white;
   padding: 10px 20px;
-  /* Adjust these values to change the button size */
+
   border: none;
-  /* Remove the default button border */
+
   border-radius: 5px;
-  /* Optional: give the buttons rounded corners */
+
   cursor: pointer;
-  /* Change the cursor when hovering over the buttons */
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   transition: transform 0.2s ease;
-  /* Optional: add a transition effect when hovering over the buttons */
+
 }
 
 .button2 {
@@ -122,16 +122,15 @@ h1 {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  /* Optional: give the buttons rounded corners */
+
   cursor: pointer;
-  /* Change the cursor when hovering over the buttons */
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   transition: transform 0.2s ease;
-  /* Optional: add a transition effect when hovering over the buttons */
+  
 }
 
 .button1:active {
@@ -164,9 +163,8 @@ h1 {
 
 .image-container2 img {
   width: 60%;
-  /* Makes the image fill the container */
+ 
   height: auto;
-  /* Maintains aspect ratio */
 
 }
 
@@ -204,11 +202,11 @@ h2 {
 
 .image-container3 {
   width: 60%;
-  /* Adjust width according to your needs */
+ 
   height: auto;
-  /* Maintains aspect ratio */
+  
   float: right;
-  /* Aligns the image container to the left */
+  
   padding-left: 100px;
   padding-top: 90px;
 }
@@ -221,9 +219,9 @@ h2 {
 
 .image-container3 img {
   width: 70%;
-  /* Makes the image fill the container */
+ 
   height: auto;
-  /* Maintains aspect ratio */
+
 
 
 }
@@ -379,7 +377,6 @@ h3 {
 
   .image-container2 img {
     width: 180px !important;
-    /* add important to override other styles if any */
     margin-top: 0;
     padding-top: 25px;
   }
@@ -439,7 +436,6 @@ h3 {
 
   .image-container3 img {
     width: 180px !important;
-    /* add important to override other styles if any */
     margin-top: 0;
     padding-top: 25px;
 
@@ -562,9 +558,7 @@ h3 {
 
 .image-container4 img {
   width: 60%;
-  /* Makes the image fill the container */
   height: auto;
-  /* Maintains aspect ratio */
   vertical-align: middle;
 }
 
@@ -615,7 +609,6 @@ h4 {
   background-color: #c4ddf9;
   color: rgb(44, 44, 44);
   min-height: 300px;
-  /* Changed this from 'height' to 'min-height' */
   padding: 20px;
   align-items: center;
 }
@@ -635,7 +628,6 @@ h4 {
   list-style-type: none;
   padding: 0;
   text-align: center;
-  /* Added this to center align in mobile view */
 }
 
 .footer ul li {
@@ -703,7 +695,7 @@ width: 1010px;
 }
 
 .image-container2 .image-container3 {
-  box-sizing: border-box;  /* Consider padding and border in the width */
+  box-sizing: border-box; 
 }
 
 .image-container4 {
