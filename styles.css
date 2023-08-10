@@ -362,6 +362,7 @@ h3 {
     display: block;
     padding-top: 25px !important;
     padding-right: 0px;
+    text-align: center;
 
 
 
@@ -520,6 +521,7 @@ h3 {
     padding-right: 0px !important;
     padding-left: 35px;
     flex-basis: 0% !important;
+    text-align: center;
   }
 
   .image-container4 {
@@ -580,7 +582,7 @@ h3 {
   margin: 0;
   padding-right: 100px;
   padding-top: 300px;
-  text-align: right;
+  text-align: left;
 }
 
 .visual {
