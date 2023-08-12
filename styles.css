@@ -342,11 +342,10 @@ h3 {
 
   h2 {
     font-size: 25px !important;
-    padding-left: 40px !important;
-    padding-right: 0px !important;
+    padding: 0px !important;
     padding-bottom: 10px !important;
     white-space: nowrap;
-
+    text-align: center;
   }
 
   .graphic {
@@ -374,6 +373,8 @@ h3 {
     flex-basis: 0;
     padding-left: 100px;
     padding-top: 0px;
+    width: initial;
+    text-align: center;
   }
 
   .image-container2 img {
@@ -385,6 +386,7 @@ h3 {
   .landing2 .graphic-container,
   .landing2 .image-container2 {
     flex-basis: 0%;
+    padding: 0 20px;
   }
 
   .landing3 {
@@ -400,10 +402,10 @@ h3 {
   h3 {
     font-size: 25px !important;
     padding-left: 0px !important;
-    padding-right: 40px !important;
+    padding-right: 0px !important;
     padding-bottom: 10px !important;
     white-space: nowrap;
-
+    text-align: center;
   }
 
   .web {
@@ -420,7 +422,7 @@ h3 {
     display: block;
     padding-top: 35px !important;
     padding-right: 0px;
-    padding-left: 35px;
+    padding-left: 0px;
     padding-bottom: -50px;
 
 
@@ -446,6 +448,7 @@ h3 {
   .landing3 .web-container,
   .landing .image-container2 {
     flex-basis: 0%;
+    text-align: center;
   }
 
   .landing4 {
@@ -544,6 +547,16 @@ h3 {
   .landing4 .visual-container,
   .landing4 .image-container4 {
     flex-basis: 0%;
+  }
+
+  .landing4 .visual-container{
+    padding: 0 20px !important;
+    text-align: center;
+  }
+
+  .landing4 .visual-container h4 {
+    padding: 0 !important;
+    text-align: center;
   }
 
 }
