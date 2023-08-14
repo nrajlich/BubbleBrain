@@ -567,6 +567,11 @@ h4 {
 
   }
 
+  .button1, .button2 {
+    width: 50% !important;
+    font-size: 13px;
+  }
+
   .footer ul {
     padding-top: 20px;
 
