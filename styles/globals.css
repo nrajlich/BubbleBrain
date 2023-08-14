@@ -454,7 +454,7 @@ h4 {
   font-size: 13px;
 }
 
-@media (max-width: 1268px) {
+@media (max-width: 834px) {
 .landing {
   flex-direction: column-reverse;
 }
@@ -559,7 +559,7 @@ h4 {
 }
 
 }
-@media (max-width: 991px) {
+@media (max-width: 400px) {
   .footer ul li {
     display: block;
     margin: 10px 0;
@@ -689,8 +689,6 @@ h4 {
     padding-top: 25px !important;
     padding-right: 0px;
     text-align: center;
-
-
 
   }
 
