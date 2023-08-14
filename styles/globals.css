@@ -575,11 +575,8 @@ h4 {
   .footerimg {
     display: none;
   }
-}
 
 
-
-@media (max-width: 991px) {
 
   .mobile {
     display: initial;
