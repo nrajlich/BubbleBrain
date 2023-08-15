@@ -91,6 +91,9 @@ h4 {
 }
 }
 
+
+/* Standard screens*/
+
 .mobile {
   display: none;
 }
@@ -656,7 +659,7 @@ h4 {
     display: block;
     flex-grow: 4;
     flex-basis: 0;
-    padding-left: 0px;
+
     padding-top: 0px;
     padding-bottom: 30px;
   }
@@ -702,14 +705,15 @@ h4 {
     display: block;
     flex-grow: 4;
     flex-basis: 0;
-    padding-left: 0px;
     padding-top: 0px;
     padding-bottom: 30px;
   }
 
-  .image-container4 img {
-    width: 150px !important;
-    margin-left: 0px;
+  .image-container4 img
+  {
+    width: 30%;
+    padding-top: 30px;
+    padding-bottom: 30px;
    
   }
 
@@ -760,13 +764,14 @@ h4 {
     padding-left: 0px;
     padding-top: 0px;
     padding-bottom: 30px;
-    
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .image-container4 img {
-    width: 150px !important;
-    margin-top: 0;
+    width: 120%;
     padding-top: 25px;
+   
 
   }
 
@@ -784,6 +789,7 @@ h4 {
     padding: 0 !important;
     text-align: center;
   }
+  
 
 }
 
