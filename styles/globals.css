@@ -582,9 +582,9 @@ h4 {
   }
 
   .graphic {
-    padding-left: 40px;
+    padding-left: 0px;
     font-size: 15px;
-    padding-left: 40px;
+    padding-left: 25px;
     font-size: 15px;
     text-align: center;
     padding-right: 40px;
@@ -617,7 +617,7 @@ h4 {
   .landing2 .graphic-container,
   .landing2 {
     flex-basis: 0%;
-    padding: 0 20px;
+    padding: 0 5px;
   }
 
   .landing3 {
