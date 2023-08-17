@@ -1,4 +1,5 @@
 import Script from 'next/script'
+import Iconb from '../components/iconb'
 
 export default function () {
     return <>
@@ -8,13 +9,8 @@ export default function () {
 
         <nav className="navbar navbar-expand-lg bg-transparent border-bottom shadow">
             <div className="container">
-                <a className="navbar-brand fs-4" href="#">
-                    <img src="images/blogo.png" alt="Logo"
-                        style={{ height: '30px', width: 'auto', position: 'relative', top: '-4px', marginLeft: '20px', marginRight: '2px' }} />ubble
-                    Brain
-                </a>
-
-                <button className="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                <Iconb></Iconb>
+         <button className="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span className="navbar-toggler-icon"></span>
                 </button>
@@ -22,11 +18,7 @@ export default function () {
                     aria-labelledby="offcanvasNavbarLabel">
 
                     <div className="offcanvas-header border-bottom shadow">
-                        <a className="navbar-brand fs-4" href="#">
-                            <img src="images/blogo.png" alt="Logo"
-                                style={{ height: '30px', width: 'auto', marginRight: '3px', position: 'relative', top: '-4px' }} />ubble
-                            Brain
-                        </a>
+                       <Iconb></Iconb>
                         <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
 
