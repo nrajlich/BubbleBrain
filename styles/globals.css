@@ -42,8 +42,6 @@ width: 1010px;
 }
 .image-container2 img {
   width: 35%;
-  margin-left: 370px;
- 
 }
 h2 { 
   font-size: 70px;
@@ -602,22 +600,22 @@ h4 {
 
   .image-container2 {
     display: block;
-    flex-grow: 4;
     flex-basis: 0;
-    padding-left: 100px;
     padding-top: 0px;
     width: initial;
     text-align: center;
+    
   }
 
   .image-container2 img {
     width: 180px !important;
     margin-top: 0;
+    margin-left: 30px;
     padding-top: 25px;
   }
 
   .landing2 .graphic-container,
-  .landing2 .image-container2 {
+  .landing2 {
     flex-basis: 0%;
     padding: 0 20px;
   }
@@ -660,6 +658,7 @@ h4 {
 
   .image-container3 {
     display: block;
+    
     flex-grow: 4;
     flex-basis: 0;
 
@@ -669,7 +668,8 @@ h4 {
 
   .image-container3 img {
     width: 180px !important;
-    margin-top: 0;
+    margin-top: 10px;
+    margin-left: 60px;
     padding-top: 25px;
 
 
@@ -679,6 +679,7 @@ h4 {
   .landing .image-container2 {
     flex-basis: 0%;
     text-align: center;
+
   }
 
   .landing4 {

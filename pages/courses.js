@@ -1,3 +1,10 @@
-export default function courses() {
-    return <h1>Courses</h1>
+import Header from '../components/header'
+import Footer from '../components/footer'
+
+
+export default function courses() { return <>
+    
+    <Header></Header>
+    <Footer></Footer>
+</>
 }
