@@ -6,7 +6,7 @@ function Footeritem(props) {
 
 
 export default function Footer(props) {
-    return <div className="bg-blue-200 flex flex-col justify-center items-center px-24 text-base py-3">
+    return <div className="bg-blue-200 flex flex-col justify-center items-center px-24 text-base py-10">
         <div className="items-center hidden md:flex text-gray-700">
             <img src="images/bubble4.png" />
         </div>
