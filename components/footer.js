@@ -1,17 +1,24 @@
-export default function Footer(){
-    return <footer className="footer">
-    <div className="footerimg">
-        <img src="images/bubble4.png" /></div>
-    <div className="footer-content">
+function Footeritem(props) {
+    return <li className="hover:text-gray-400 cursor-pointer" >
+        <a>{props.children}</a>
+    </li>
+}
 
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#faqs">FAQs</a></li>
-            <li><a href="#terms">Terms and Conditions</a></li>
-            <li><a href="#privacy">Privacy Policy</a></li>
-            <li><a href="#instructor">Instructor</a></li>
+
+export default function Footer(props) {
+    return <div className="bg-blue-200 flex flex-col justify-center items-center px-24 text-base py-3">
+        <div className="items-center hidden md:flex text-gray-700">
+            <img src="images/bubble4.png" />
+        </div>
+
+        <ul className="flex flex-col md:flex-row gap-2 md:gap-5 items-center text-gray-700 py-5">
+            <Footeritem>About</Footeritem>
+            <Footeritem>FAQs</Footeritem>
+            <Footeritem>Terms and conditions</Footeritem>
+            <Footeritem>Privacy Policy</Footeritem>
+            <Footeritem>Instructor</Footeritem>
         </ul>
+
+        <div className="text-xs">All rights revserved Nayama Rajlich ©</div>
     </div>
-    <div className="rights">All rights reserved © 2023 Nayama Rajlich</div>
-</footer>
 }
