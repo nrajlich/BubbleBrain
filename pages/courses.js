@@ -5,10 +5,16 @@ import cardList from './data';
 export default function courses() { return <>
     <Navbar></Navbar>
     <main className='container mx-auto py-36 px-8'>
-                <div className="grid lg:grid-cols-3">
+                <div className="grid lg:grid-cols-3 gap-6">
                 {cardList.map(card =>( 
-                    <div> <img src={card.img} alt=""/>
-
+                    <div className='shadow-lg rounded-lg'>
+                
+                    <div> <img className="rounded-t-lg" src={card.img} alt=""/>
+                    <div className='p-5'>
+                    <h3 className='font-bold text-lg text-slate-700 mb-3'>{card.title}</h3>
+                    <p className='font-normal text-gray-600'>{card.text}</p>
+                    </div>
+                    </div>
                 </div>))}
                 </div>
                 </main>
