@@ -1,6 +1,6 @@
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
-import cardList from './data';
+import cardList from '../data';
 
 export default function courses() { return <>
     <Navbar></Navbar>
