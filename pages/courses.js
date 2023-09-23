@@ -5,7 +5,7 @@ import cardList from './data';
 export default function courses() { return <>
     <Navbar></Navbar>
     <main className='container mx-auto py-36 px-8'>
-                <div className="grid lg:grid-cols-3 gap-6">
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
                 {cardList.map(card =>( 
                     <div className='shadow-lg rounded-lg'>
                 
