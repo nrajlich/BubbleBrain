@@ -1,21 +1,22 @@
+import Link from 'next/link'
 import Iconb from "./iconb";
 import Sidemenu from "./sidemenu";
 
 export function Navbaritem(props) {
-    return <li className="hover:text-gray-400 cursor-pointer" >
-        <a>{props.children}</a>
+    return <li className="hover:text-gray-400 cursor-pointer">
+        <Link {...props}>{props.children}</Link>
     </li>
 }
 
 export default function Navbar(props) {
-    return <div className="flex justify-between sm:px-10 lg:px-24 text-base py-3 shadow-inner">
+    return <div className="relative shadow-xl flex justify-between sm:px-10 lg:px-24 text-base py-3">
         <div className="items-center flex text-gray-700"><Iconb></Iconb></div>
 
         <ul className="gap-5 items-center md:flex hidden text-gray-700">
-            <Navbaritem>Home</Navbaritem>
-            <Navbaritem>Courses</Navbaritem>
-            <Navbaritem>My Learning</Navbaritem>
-            <Navbaritem>Instructor</Navbaritem>
+            <Navbaritem href="/">Home</Navbaritem>
+            <Navbaritem href="/courses">Courses</Navbaritem>
+            <Navbaritem href="/">My Learning</Navbaritem>
+            <Navbaritem href="/">Instructor</Navbaritem>
         </ul>
 
         <div className="md:flex hidden gap-4 items-center">

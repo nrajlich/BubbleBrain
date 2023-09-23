@@ -1,11 +1,9 @@
-import Script from 'next/script'
-import Iconb from '../components/iconb'
 import LandingSection from '../components/landingsection'
 import Heading from '../components/heading'
 import Button from '../components/button'
-import Heading2 from '../components/heading2'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+
 
 
 export default function () {
@@ -53,5 +51,8 @@ export default function () {
                 imageSrc="/images/hand.png"
                 customClass="md:h-[380px]"
             ></LandingSection> </div>
+             
             <Footer></Footer>
+
+
             </> }
