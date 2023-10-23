@@ -1,10 +1,13 @@
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
-import cardList from '../data';
+import cardList from '../data'
+import Searchbar from '../components/searchbar'
 
 export default function courses() { return <>
     <Navbar></Navbar>
-    <main className='container mx-auto py-36 px-8'>
+
+    <main className='container mx-auto px-8'>
+    <div className='pb-14 pt-24 flex justify-center'><Searchbar/></div>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-6">
                 {cardList.map(card =>( 
                     <div className='shadow-lg rounded-lg'>
